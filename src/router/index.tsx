@@ -1,7 +1,14 @@
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Home } from '../pages';
 
 const Router = () => {
-  return <BrowserRouter></BrowserRouter>;
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/penstory" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
+  );
 };
 
 export default Router;
