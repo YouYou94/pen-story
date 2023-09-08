@@ -1,3 +1,5 @@
+import { Layout } from './Styled';
+
 export const Loading = () => {
-  return <></>;
+  return <Layout></Layout>;
 };
