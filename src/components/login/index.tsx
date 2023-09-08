@@ -1,3 +1,5 @@
+import { Layout } from './Styled';
+
 export const Login = () => {
-  return <></>;
+  return <Layout></Layout>;
 };
