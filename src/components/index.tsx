@@ -1,6 +1,6 @@
 /* Common */
 export { Loading } from './common/loading';
-export { TopBar } from './common/topbar';
+export { Header } from './common/header';
 
 /* Components */
 export { Login } from './login';
