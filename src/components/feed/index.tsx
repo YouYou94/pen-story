@@ -1,3 +1,5 @@
+import { Layout } from './Styled';
+
 export const Feed = () => {
-  return <></>;
+  return <Layout></Layout>;
 };
