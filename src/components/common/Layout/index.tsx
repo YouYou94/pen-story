@@ -6,6 +6,12 @@ export const Layout = styled.div`
   display: flex;
 `;
 
+export const TemplateLayout = styled(Layout)`
+  height: 100vh;
+
+  flex-direction: column;
+`;
+
 export const RowLayout = styled(Layout)``;
 
 export const ColumnLayout = styled(Layout)`
