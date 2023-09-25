@@ -1,4 +1,6 @@
 /* Common */
+export { RowLayout, ColumnLayout } from './common/Layout';
+
 export { Loading } from './common/loading';
 export { Header } from './common/header';
 export { Menu } from './common/menu';
