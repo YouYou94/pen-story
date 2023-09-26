@@ -1,5 +1,14 @@
 import styled from '@emotion/styled';
 
-export const Layout = styled.header``;
+export const Layout = styled.header`
+  height: 4rem;
 
-export const Box = styled.div``;
+  display: flex;
+`;
+
+export const Box = styled.div`
+  flex: 1;
+
+  display: flex;
+  align-items: center;
+`;
