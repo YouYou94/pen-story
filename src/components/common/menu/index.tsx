@@ -1,10 +1,14 @@
 import { useEffect, useState } from 'react';
 import { Layout, Box } from './Styled';
+import { useNavigate } from 'react-router-dom';
 
 export const Menu = () => {
+  const navigate = useNavigate();
   const [isLogined, setIsLogined] = useState<boolean>(false);
 
-  const handleOnClickMenuButton = () => {};
+  const handleOnClickMenuButton = (menu: string) => {
+    navigate(`/penstory/${menu}`);
+  };
 
   useEffect(() => {
     /* 로그인 여부 확인 */
