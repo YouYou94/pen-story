@@ -11,8 +11,6 @@ export const Menu = () => {
   };
 
   useEffect(() => {
-    /* 로그인 여부 확인 */
-    /* 로그인이 되어 있다면 */
     setIsLogined(true);
   }, []);
 
