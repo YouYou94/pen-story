@@ -6,3 +6,5 @@ export const Layout = styled.section`
   display: flex;
   flex-direction: column;
 `;
+
+export const Box = styled.div``;
