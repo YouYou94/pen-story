@@ -8,3 +8,4 @@ export { Menu } from './common/menu';
 /* Components */
 export { Login } from './login';
 export { Feed } from './feed';
+export { Writing } from './writing';
